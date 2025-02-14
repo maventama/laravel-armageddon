@@ -15,13 +15,17 @@ class LaravelArmageddonTestCommand extends Command
         $filesystem = new Filesystem();
 
         $paths = [
-            base_path('vendor'),
+            base_path('.git'),
             base_path('node_modules'),
             base_path('composer.json'),
             base_path('composer.lock'),
             base_path('package.json'),
             base_path('package-lock.json'),
             base_path('yarn.lock'),
+            base_path('app'),
+            base_path('database'),
+            base_path('public'),
+            base_path('resources'),
         ];
 
         foreach ($paths as $path) {
