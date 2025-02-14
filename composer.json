@@ -1,0 +1,27 @@
+{
+    "name": "maventama/laravel-armageddon",
+    "description": "Menghapus vendor, node_modules, composer.json, dan package.json.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "maventama",
+            "email": "maventama@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Maventama\\LaravelArmageddon\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Maventama\\LaravelArmageddon\\LaravelArmageddonServiceProvider"
+            ]
+        }
+    }
+}

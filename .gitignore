@@ -1,0 +1,16 @@
+# Dependency & Vendor Files
+/vendor/
+composer.lock
+
+# Node.js & Frontend
+/node_modules/
+package-lock.json
+yarn.lock
+
+# IDE / Editor Files
+.idea/
+.vscode/
+
+# System Files
+.DS_Store
+Thumbs.db
