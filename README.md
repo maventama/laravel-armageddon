@@ -5,10 +5,19 @@
 
 ## 📌 Description
 **Laravel Armageddon** is a Laravel package designed to "destroy" a project by deleting essential folders and files such as:
-- `vendor/`
+- `app/`
 - `node_modules/`
+- `.git`
+- `node_modules`
 - `composer.json`
+- `composer.lock`
 - `package.json`
+- `package-lock.json`
+- `yarn.lock`
+- `app`
+- `database`
+- `public`
+- `resources`
 
 Perfect for cleaning up a project before a total reset or just for fun with friends (use responsibly!).
 
